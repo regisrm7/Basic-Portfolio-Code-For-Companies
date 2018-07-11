@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Divulgacao De Empresa XXX</string>
+    <string name="title_activity_empresa">EmpresaActivity</string>
+    <string name="title_activity_servicos">ServicosActivity</string>
+    <string name="contato">Contato</string>
+    <string name="email">Email: teste@teste.com.br</string>
+    <string name="fax">Fax: (31) 23344-4325</string>
+    <string name="Telefone">Telefone: (31) 43543-4324</string>
+    <string name="todo">Todo</string>
+    <string name="Servicos">Serviços</string>
+    <string name="desenvolvimento">Desevolvimento de software</string>
+    <string name="servicedesk">Serviços de Help Desk</string>
+    <string name="projeto">Projetos</string>
+    <string name="textoEmpresa">Empresa</string>
+    <string name="textoDescricaoEmpresa" />
+</resources>

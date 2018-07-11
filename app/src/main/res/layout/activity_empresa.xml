@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpresaActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textoEmpres_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/textoEmpresa"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Empresa" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <LinearLayout
+            android:id="@+id/linearTextoEmpresa_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="448dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginStart="11dp"
+                android:text="bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla  bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla  bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla  bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla  bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla  bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla  bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla  bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla  bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla  bla bla bla bla bla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla bla bla blabla blabla blabla blabla bla bla bla bla bla bla bla bla blabla blabla blabla blabla blabla bla bla bla bla blabla blabla blabla blabla bla bla blavbla blabla bla "
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textoEmpres_id" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:background="@drawable/detalhe_empresa"
+        android:contentDescription="@drawable/detalhe_empresa"
+        app:layout_constraintBottom_toBottomOf="@+id/textoEmpres_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoEmpres_id"
+        app:srcCompat="@drawable/detalhe_empresa" />
+
+</android.support.constraint.ConstraintLayout>
